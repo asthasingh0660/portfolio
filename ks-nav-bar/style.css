@@ -1,0 +1,523 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+/* ****************NAV-BAR**************** */
+/*.div{
+    background-color: #4E4FEB;
+}---NOT WORKING*/
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding: 1% 0;
+    background-color: #4E4FEB;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    margin: 0 2%;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style-type: none;
+}
+
+nav li button {
+
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 120px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 30px;
+    border-color: black;
+    background-color: #ffffff;
+    border-style: none;
+}
+
+.view_btn :hover {
+    background-color: #1D1D1D;
+    /* NOT WORKING */
+    color: #FFF;
+}
+
+#home_nav {
+    margin-right: 1%;
+}
+
+#about_nav {
+    margin-right: 1%;
+}
+
+#skills_nav {
+    margin-right: 1%;
+}
+
+#portfolio_nav {
+    margin-right: 1%;
+}
+
+/* **************HOME-PAGE*************** */
+
+.homepage {
+    padding: 1% 5%;
+    background-color: black;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home_text {
+    padding: 2%;
+}
+
+.intro_text {
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
+
+#hi_text {
+    font-size: 40px;
+}
+
+#name_text {
+    font-size: 80px;
+    color: #068FFF;
+
+}
+
+#position_text {
+    font-size: 25px;
+    
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_icon {
+    margin: 1% 5%;
+}
+
+#pp {
+    height: 649px;
+    max-width: 959px;
+    border-radius: 50%;
+    padding: 2%;
+    margin-bottom: 10%;
+    filter: drop-shadow(5px 5px 10px rgb(182, 150, 150));
+}
+
+/* ****************somth************* */
+
+.somth {
+    padding: 2%;
+    background: linear-gradient(95deg, #4E4FEB 0%, #068FFF 100%);
+    color: #FFF;
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.561px;
+}
+
+.para {
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.682%;
+}
+
+.read_more {
+    display: flex;
+}
+
+.read {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-left: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
+    border-color: #ffffff;
+    padding: 0 1%;
+}
+
+/* ********************ABOUT ME******************* */
+
+.abt_me_page {
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%),
+        #FFF;
+    ;
+    font-family: Montserrat;
+    padding: 2%;
+
+}
+
+.about_me {
+    display: flex;
+    justify-content: center;
+    margin: 4% 0;
+}
+
+.about_text {
+    border: 5px solid black;
+    padding: 1% 4%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.9%;
+    letter-spacing: 10.661px;
+
+}
+
+.abt_para {
+    display: flex;
+    justify-content: center;
+    margin: 1% 19%;
+}
+
+.about_para {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.682%;
+}
+
+.expl {
+    display: flex;
+    justify-content: center;
+}
+
+.explain_text {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-left: 4px solid rgb(0, 0, 0);
+    border-right: 4px solid rgb(0, 0, 0);
+    padding: 1% 3%;
+}
+
+.desg {
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+}
+
+.des_heading {
+    display: flex;
+    align-items: center;
+}
+
+.des_heading h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.078px;
+}
+
+.des_text {
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.work {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 17%;
+}
+
+.work_design1 {
+    padding: 1% 2%;
+}
+
+.work_dev {
+    padding: 1% 2%;
+}
+
+.dev_icon {
+    width: 68.939px;
+    height: 70px;
+}
+
+.work_maintain1 {
+    margin: 2% 35%;
+}
+
+/******** SKILLS ******* */
+
+.skills {
+    padding: 2% 16%;
+}
+
+.using_text {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.561px;
+    margin: 2% 0 4% 0;
+}
+
+.using_icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.using_icon_text {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.249px;
+}
+
+.skill_icon_class {
+    padding: 1% 0 2% 0;
+}
+
+/* **********portfolio*********** */
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url(image\ 12.png);*/
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url(image\ 12.png),
+        lightgray 0px -109px / 100% 377.608% no-repeat;
+    max-width: auto;
+    height: 321px;
+
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.9%;
+    letter-spacing: 13.061px;
+    border: 6px solid black;
+    padding: 1% 3%;
+}
+
+/* *********CONTACT ME PAGE*********** */
+
+.contact-me {
+    background: linear-gradient(85deg, #068FFF 20%, #4E4FEB 100%);
+    font-family: Montserrat;
+    padding: 2%;
+    color: #ffffff;
+
+}
+
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    margin: 4% 0 1% 0;
+}
+
+.con-head {
+    border: 5px solid black;
+    padding: 1% 4%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.9%;
+    letter-spacing: 10.661px;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.con-form {
+    width: 40%;
+    padding: 2%;
+    background-color: rgba(4, 1, 40, 0.55);
+    border-radius: 25px;
+    margin-bottom: 3%;
+    box-shadow: #4E4FEB;
+}
+
+input {
+    width: 100%;
+    padding: 2%;
+    background: none;
+
+
+}
+
+input[type=text] {
+    border: solid rgb(23, 22, 22);
+    border-top: 0;
+    border-right: 0;
+    color: #ffffff;
+}
+
+input[type=email] {
+    border: solid rgb(23, 22, 22);
+    border-top: 0;
+    border-right: 0;
+    color: #ffffff;
+}
+
+input[type=number] {
+    border: solid rgb(23, 22, 22);
+    border-top: 0;
+    border-right: 0;
+    color: #ffffff;
+}
+
+textarea {
+    width: 100%;
+    padding: 1%;
+    background: none;
+    border: solid rgb(23, 22, 22);
+    border-top: 0;
+    border-right: 0;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: rgb(6, 6, 6);
+    opacity: 1;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+}
+
+.form-but {
+    display: flex;
+
+}
+
+.form-button {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: none;
+    padding: 2%;
+    border-style: none;
+
+
+}
+
+.form-but-head {
+    display: inline;
+    border: 3px solid black;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0 2%;
+}
+
+/**********BACK TO TOP**********/
+
+.back-to-top {
+    background-color: #1a1a1a;
+    padding: 3%;
+    color: #ffffff;
+}
+
+.back-to-top-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.back-to-top-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.781px;
+}
+
+.btt-icon {
+    padding: 1% 42%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rights {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
